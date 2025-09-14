@@ -73,12 +73,14 @@ public class restartcountdown extends JavaPlugin {
         if (countdownTask != null) countdownTask.cancel();
 
         // Halbzeit-/Viertel-/Achtel-Marken vorberechnen
+        // Halbzeit-/Viertel-/Achtel-Marken vorberechnen
         Set<Long> halbzeitMarken = new HashSet<>();
         long check = totalSeconds / 2;
-        while (check >= 10) {
+        while (check >= 60) { // nur solange >= 1 Minute
             halbzeitMarken.add(check);
             check /= 2;
         }
+
 
         // Feste Meldungen (z.B. 20, 10, 5 Minuten)
         Set<Long> festeMarken = new HashSet<>();
