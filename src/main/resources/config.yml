@@ -1,0 +1,17 @@
+messages:
+  start: "§aAchtung! Der Server wird in %time% neu gestartet!"
+  stop: "§cCountdown wurde gestoppt!"
+  restart: "§cServer wird jetzt neu gestartet!"
+  invalid_time: "§cUngültige Zeitangabe!"
+  usage: "§cVerwendung: /restartserver <Zeit> oder /restartserver stop"
+
+  # Dynamische Meldungen
+  half: "§eServerneustart in %time%!"
+  minute: "§eServerneustart in %time%!"
+  seconds_20: "§eServerneustart in 20s!"
+  seconds_final: "§cServerneustart in %time% Sekunden!"
+
+  # Feste Meldungen
+  fixed_1200: "§eServerneustart in 20m!"
+  fixed_600: "§eServerneustart in 10m!"
+  fixed_300: "§eServerneustart in 5m!"
