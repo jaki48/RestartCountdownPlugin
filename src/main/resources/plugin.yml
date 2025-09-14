@@ -1,0 +1,12 @@
+name: RestartCountdown
+version: 1.0
+main: de.jakob48.restartcountdown
+api-version: 1.20
+commands:
+  restartserver:
+    description: Startet einen Server-Neustart nach Countdown
+    usage: /restartserver <Zeit>
+    permission: restartserver.use
+permissions:
+  restartserver.use:
+    default: op
