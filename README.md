@@ -1,6 +1,7 @@
 # RestartCountdownPlugin
 
 Ein simples Minecraft Plugin welches den Server nach einem Countdown neustartet um alle Spieler zu warnen.
+Gemacht für Paper Server
 
 ## Verwendung
 
